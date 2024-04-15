@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background-color: aqua;
+}
+table {
+  width: 1200px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+button {
+  cursor: pointer;
+  text-align: center;
+  padding: 6px 12px;
+  border: none;
+}
+.addBtn {
+  color: white;
+  background-color: rgb(10, 35, 125);
+  font-size: 15px;
+}
+.addBtn:hover {
+  background-color: white;
+  color: rgb(10, 35, 125);
+}
+.saveBtn {
+  background-color: rgb(255, 213, 0);
+  margin-right: 10px;
+}
+.saveBtn:hover {
+  background-color: black;
+  color: rgb(255, 213, 0);
+}
+.cancelBtn {
+  background-color: rgb(255, 34, 0);
+}
+.cancelBtn:hover {
+  background-color: black;
+  color: rgb(255, 34, 0);
+}
+input {
+  outline: 0;
+  padding: 6px;
+}
